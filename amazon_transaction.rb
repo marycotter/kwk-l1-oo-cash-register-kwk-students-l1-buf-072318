@@ -2,7 +2,7 @@
 class AmazonTransaction
   attr_accessor :total, :items, :add_item
   attr_reader :discount
-  def initialize(discount=0)
+  def initialize(discount)
     @total = 0 
     @items = []
     @discount = discount 
